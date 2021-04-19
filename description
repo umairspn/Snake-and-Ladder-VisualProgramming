@@ -1,0 +1,17 @@
+DESCRIPTION:
+	Complete Snake and Ladder Game in C#.
+	Multiple Players Added.
+	Dynamic Game. (Position of Snake and ladders changes every time).
+	Multiple modes. Easy, Medium, Hard.
+	Dice Image changes every time a dice is rolled. 
+	Sounds on each dice rolled, Snake positions and at winning point.
+	Score for each player on the display.
+	Reset button to restart the game at any point.
+
+HOW TO USE:
+The layout for the game is designed using disabled textboxes. A label with background image is used for the snake which will move through the textboxes. 
+The user will press the dice button, upon which a random function will be called which will generate a random number from 1 to 6. The dice (label) will move according to the generated number for each player.  
+The game is dynamic which means that the snake position will be different every time you run the game. It is done by passing the value from one form to another in a static string.  
+Furthermore, reset button is added which will reset the position of all players and their respected score. 
+.Wav sounds are added on each dice roll and snake positions using the SoundPlayer() function. 
+Try Catch is also used to avoid the program from crashing.
